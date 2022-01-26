@@ -15,15 +15,18 @@ const green = document.getElementById('green');
 
 function changeTitleToRed() {
     title.textContent = name.value;
+    title.className = "";
     title.classList.add('red')
 }
 function changeTitleToBlue() {
     title.textContent = name.value;
+    title.className = "";
     title.classList.add('blue')
 }
 
 function changeTitleToGreen() {
     title.textContent = name.value;
+    title.className = "";
     title.classList.add('green')
 }
 
